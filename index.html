@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Game Store</title>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/
+     font-awesome.min.css" ref="stylesheet" type="text/css">
+    <style>
+        body{
+            font-family: sans-serif;
+        }
+        ul{
+            position: absolute;
+            top: 80%;
+            left: 50%;
+            transform: translate(-80%,-50%);
+            display: flex;
+            margin: 0;
+            padding: 0;
+        }
+        ul li{
+            list-style: none;
+            margin: 0 5px;
+        }
+        ul li a .fa{
+            font-size: 40px;
+            color: #333;
+            line-height: 80px;
+            transition: 0.5s;
+            padding-right: 14px;
+        }
+        ul li a span{
+            padding: 0;
+            margin: 0;
+            position: absolute;
+            top: 30px;
+            color: #333;
+            letter-spacing: 10px;
+            transition: 0.5s;
+        }
+        ul li a{
+            text-decoration: none;
+            display: absolute;
+            display: block;
+            width: 180px;
+            height: 80px;
+            background: #fff;
+            text-align: left;
+            padding-left: 20px;
+            transform: rotate(-30deg) skewX(25deg) translate(0,0);
+            transition:0.5s;
+            box-shadow: -20px 20px 10px rgba(0,0,0,0.5);
+
+
+        }
+        ul li a:before{
+            content: '';
+            position: absolute;
+            bottom:-20px;
+            left: -10px;
+            height: 20px;
+            width: 100%;
+            background: #b1b1b1;
+            transform: 0.5s;
+            transform: rotate(0deg) skewX(-45deg)
+
+        }
+        ul li a:after{
+            content: '';
+            position: absolute;
+            top:10px;
+            left: -20px;
+            height: 100%;
+            width: 20px;
+            background: #b1b1b1;
+            transform: 0.5s;
+            transform: rotate(0deg) skewY(-45deg)
+
+        }
+        ul li a:hover{
+            transform: rotate(-30deg) skew(25deg) translate(20px,-15px);
+            box-shadow: -50px 50px 50px rgba(0,0,0,0.5);
+        }
+        ul li:hover .fa{
+            color:#fff;
+        }
+        ul li:hover span{
+            color: #fff;
+        }
+        ul li:hover a{
+            background: #dd4b39;
+        }
+        ul li:hover a:before{
+            background: #b33a2b;
+        }
+        ul li:hover a:after{
+            background: #e66e5a;
+        }
+        h1{
+            color:brown;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        h2{
+            text-align:center;
+            font-family: sans-serif;
+            color: cyan;
+        }
+        
+
+        .container {
+            display:flex;
+            justify-content: space-evenly;
+        }
+        .hyperText{
+            text-align: center;
+        }
+        .facebook{
+            text-align: center;
+        }
+    </style>
+ 
+    
+
+</head>
+<body style="background: linear-gradient(red,pink,orange,purple); background-attachment: fixed;">
+    <h1>DIVYANSHU</h1>
+    <div class="hyperText">
+        <a href = "#">Project</a>
+        <a href ="aboutMe.html">About Me</a>    
+        <a href ="aboutWebsite.html">About Website</a>
+    </div>
+    <h2>
+        Game designed by me
+    </h2>
+    <div class ="container">
+        <div class="game-1">
+            <p>
+                TREX Runner Game
+            </p>
+            <a href = "https://studio.code.org/projects/gamelab/-2-gMUBTCtpn-Pwha0bUxDF">
+                <img src = "trex.png"/>
+            </a>
+        </div>
+        <div class="game-2">
+            <p>
+                Royal Battle
+            </p>
+            <a href = "https://www.youtube.com/">
+                <img src = "icon.png"/>
+            </a>
+        </div>
+        <div class="game-3">
+            <p>
+              Angry Bird
+            </p>
+            <a href = "#">
+                <img src = "angry.png"/>
+            </a>
+        </div>
+    </div>
+    <br/>
+    <div class="faceBook">
+        <a href ="https://www.facebook.com/">
+            <img src = "facebook.png" width = 50 height = 50/>
+        </a>
+    </div>
+    <div class="youtube">
+        <a href ="https://www.youtube.com/">
+            <img src = "youtube.png" width = 50 height = 50/>
+        </a>
+    </div>
+    <div class="instagram">    
+        <a href ="https://www.instagram.com/">
+            <img src = "instagram.png" width = 50 height = 50/>
+        </a>
+    </div>
+    <ul>
+        <li>
+            <a href="MODEL/model.html">
+                <span>3D Model</span>
+            </a>
+        </li>
+    </ul>    
+
+</body>
+</html>
+
+
